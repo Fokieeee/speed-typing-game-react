@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  color: #00b800;
+}
+
+html, body {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  display: block;
+  border: none;
+  color: black;
+  background: #00b800;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor:default;
+  background-color: #177617;
+}
+
+button:hover {
+  background: #18c818;
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 20px;
+  text-align:center;
+}
+
+textarea {
+  border: 3px solid black;
+  width: 90%;
+  outline: none;
+  height: 200px;
+  background: #00b800;
+  padding: 10px;
+  color: black;
+}
+
+textarea:disabled {
+  background-color: #177617;
+}
